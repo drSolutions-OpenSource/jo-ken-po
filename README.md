@@ -1,6 +1,6 @@
-# Jogo Jô Ken Pô
+# Jogo Jó Ken Pô
 
-Exemplo de um jogo Jô Ken Pô desenvolvido em Python. 
+Exemplo de um jogo Jó Ken Pô desenvolvido em Python. 
 
 O jogador joga cada partida contra a Nicole (computador) e no final é exibido o vencedor.
 
@@ -20,7 +20,7 @@ Exemplo de uso:
 
 ```
 ┌──────────────────────────────────────────────────┐
-│                    Jo Ken Pô                     │█
+│                    Jó Ken Pô                     │█
 └──────────────────────────────────────────────────┘█
  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
@@ -31,7 +31,7 @@ Diego
 
 Olá Diego, meu nome é Nicole.
 
-Bem-vindo ao jogo Jo Ken Pô.
+Bem-vindo ao jogo Jó Ken Pô.
 
 Você deverá selecionar sua escolha, digitando um
 número entre 1 e 3.
@@ -45,7 +45,7 @@ Qual sua opção?
 
 ─────────────────────────────────────────────────────
 
-                         J O
+                         J Ó
                         K E N
                          P Ô
 

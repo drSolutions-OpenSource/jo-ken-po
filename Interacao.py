@@ -1,4 +1,4 @@
-"""Interação entre o jogador e o jogo Jo Ken Pô
+"""Integração entre o jogador e o jogo Jó Ken Pô
 
 Provê métodos para solicitar o nome do jogador, solicitar a opção no jogo
 """
@@ -13,7 +13,7 @@ __status__ = "Production"
 
 
 class Interacao:
-    """Interação entre o jogador e o jogo Jo Ken Pô"""
+    """Integração entre o jogador e o jogo Jó Ken Pô"""
 
     def solicitarNome(self):
         """Solicitar o nome do jogador"""
@@ -27,7 +27,7 @@ class Interacao:
         return nome.split()[0].title()
 
     def opcao(self):
-        """Solicitar a opção do Jo Ken Pô do jogador"""
+        """Solicitar a opção do Jó Ken Pô do jogador"""
         opcao = 0
         while opcao not in [1, 2, 3]:
             try:

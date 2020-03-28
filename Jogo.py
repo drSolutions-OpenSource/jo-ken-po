@@ -1,4 +1,4 @@
-"""Funcionamento do jogo Jo Ken Pô
+"""Funcionamento do jogo Jó Ken Pô
 
 Provê métodos para sortear uma opção para o PC (Nicole), além de um
 que apura o jogo entre o jogador e a Nicole
@@ -16,7 +16,7 @@ __status__ = "Production"
 
 
 class Jogo:
-    """Funcionamento do jogo Jo Ken Pô"""
+    """Funcionamento do jogo Jó Ken Pô"""
 
     def opcaoPc(self):
         """Sortear uma opção para o PC (Nicole)"""

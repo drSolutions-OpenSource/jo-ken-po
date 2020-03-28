@@ -1,5 +1,5 @@
 """
-Jogo Jo Ken Pô
+Jogo Jó Ken Pô
 """
 
 import Interacao as jkpInteracao
@@ -31,7 +31,7 @@ interface.instrucoes(nome)
 opcaoJogador = interacao.opcao()
 opcaoPc = jogo.opcaoPc()
 
-# Exbibir JO KEN PÔ
+# Exbibir JÓ KEN PÔ
 interface.traco()
 interface.joKenPo()
 interface.traco()

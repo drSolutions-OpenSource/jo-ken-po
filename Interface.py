@@ -1,4 +1,4 @@
-"""Interface do jogo Jo Ken Pô
+"""Interface do jogo Jó Ken Pô
 
 Provê métodos para exibir cabeçalho, traços e informações para o jogador
 """
@@ -16,13 +16,13 @@ __status__ = "Production"
 
 
 class Interface:
-    """Interface do jogo Jo Ken Pô"""
+    """Interface do jogo Jó Ken Pô"""
 
     def cabecalho(self):
         """Limpar a tela e exibir o cabeçalho"""
         os.system('cls' if os.name == 'nt' else 'clear')
         print('┌' + '─' * 50 + '┐')
-        print('│' + 'Jo Ken Pô'.center(50) + '│█')
+        print('│' + 'Jó Ken Pô'.center(50) + '│█')
         print('└' + '─' * 50 + '┘█')
         print(' ' + '▀' * 52)
 
@@ -33,7 +33,7 @@ class Interface:
     def instrucoes(self, nome:str):
         """Exibir as instruções para o jogador"""
         print(f'\nOlá {nome}, meu nome é Nicole.'
-              f'\n\nBem-vindo ao jogo Jo Ken Pô.\n')
+              f'\n\nBem-vindo ao jogo Jó Ken Pô.\n')
         print('Você deverá selecionar sua escolha, digitando um\n'
               'número entre 1 e 3.\n\n'
               '1 - Papel\n'
@@ -41,8 +41,8 @@ class Interface:
               '3 - Pedra\n')
 
     def joKenPo(self):
-        """Exibir JO KEN PÔ na tela"""
-        print('\n' + 'J O'.center(53))
+        """Exibir JÓ KEN PÔ na tela"""
+        print('\n' + 'J Ó'.center(53))
         sleep(0.7)
         print('K E N'.center(53))
         sleep(0.7)
